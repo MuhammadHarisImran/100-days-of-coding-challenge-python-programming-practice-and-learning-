@@ -1,36 +1,41 @@
-print("hello world")
-print("this is the beginning of the 100 days of code challenge")
-print("so we print ('print(this is  written inside the parenthese')")
+#this is day 2 of 100 days of coding challege and this is my practice file
 
+print("100 days of coding challeng  -  Day 2")
 
-# so now lets do some string manipulation following the course as we go
-print("haris"+"imran")
-#so as java the + is for concatination in our string
-#another thing is that if the code is not indented well it will not run
-#  print("hello world!")   #this will not run because of the indentation error
+length = len("this is a string")
+#this will not work so we will convert the data type of our variable as it is in string right now
 
-print("this is how u print an operator "+" in the output string")
+new_length = str(length)
+print("Your string has "+ new_length +" characters")
 
-#so now we see how the input works
-#input("Hello what is yout name?\n")
+#Lets try a float value
 
-#print("hello"+ input("what is your name?"))
+a = float(392)
+print(90+float(a))
 
-#print(len(input("enter your name")))
-#so this code will take input calculate its lenght and then print this the lenght using the print function but it will also count the spaces in your input
-#so if your input is m haris imran then the output will be 13 because of the added amount of spaces
+print(str(70)+ str(a))
 
+#<===================End of task 1=====================>
 
-name = input("enter your name") #so these are python variables
-print(name)
+#<===================Practice==========================>
+numbers =input("Enter a two digit number =")
+first_number = numbers[0]
+second_number = numbers[1]
 
-a = input("enter 1st number")
-b = input("enter 2nd number")
-print("so now lets switch")
+a = int(first_number) + int(second_number)
+print(a)
 
-c = b
-b = a
-a = c
+#<=================== task 2 ==========================>
 
-print("a=" + a +"\n b=" + b)
+# we need to make a bmi calculator
+
+#height = input("Enter your height = ")
+#weight = input("Enter your weight = ")
+
+#BMI = height / weight ** 2
+
+#print("your bmi is = " + str(BMI))
+
+a = int(input("enter a number = "))
+print(f"your entered number is {a}")
 
